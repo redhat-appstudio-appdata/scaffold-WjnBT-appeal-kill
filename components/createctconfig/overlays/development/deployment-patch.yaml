@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: createctconfig
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads/rhtas-tenant/scaffold/createctconfig@sha256:77b18d4fbca5bba606078f40e76a65f2ffdbfa30328e10a927fa9136275678c8
+        name: my-go
+        resources: {}
+status: {}
