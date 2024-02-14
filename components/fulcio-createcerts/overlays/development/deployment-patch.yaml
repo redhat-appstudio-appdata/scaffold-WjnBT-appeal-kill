@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: fulcio-createcerts
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads/rhtas-tenant/scaffold/fulcio-createcerts@sha256:d15124fee7ee9d3285bfb7331ee6dc48a01c7c65683be9fc73a55e5c081fb4ce
+        name: my-go
+        resources: {}
+status: {}
