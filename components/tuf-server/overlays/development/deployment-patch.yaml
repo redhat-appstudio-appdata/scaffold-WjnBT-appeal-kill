@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: tuf-server
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads/rhtas-tenant/scaffold/tuf-server@sha256:5e6c4bc42f0fbd245fdfa8e0575f8927658cd0951de03ddfc69b3f406406f4b6
+        name: my-go
+        resources: {}
+status: {}
