@@ -1,0 +1,23 @@
+apiVersion: route.openshift.io/v1
+kind: Route
+metadata:
+  creationTimestamp: null
+  labels:
+    app.kubernetes.io/created-by: application-service
+    app.kubernetes.io/instance: trillian-createtree
+    app.kubernetes.io/managed-by: kustomize
+    app.kubernetes.io/name: trillian-createtree
+    app.kubernetes.io/part-of: scaffold
+  name: trillian-createtreekgjn
+spec:
+  path: /
+  port:
+    targetPort: 8080
+  tls:
+    insecureEdgeTerminationPolicy: Redirect
+    termination: edge
+  to:
+    kind: Service
+    name: trillian-createtree
+    weight: null
+status: {}
