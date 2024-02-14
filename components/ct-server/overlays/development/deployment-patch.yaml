@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: ct-server
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads/rhtas-tenant/scaffold/ct-server@sha256:55a9708f829bed4168dfab811fccf293b0cf78f5b1e72f7d7f34c4e5edc9a3bf
+        name: my-go
+        resources: {}
+status: {}

@@ -1,0 +1,23 @@
+apiVersion: route.openshift.io/v1
+kind: Route
+metadata:
+  creationTimestamp: null
+  labels:
+    app.kubernetes.io/created-by: application-service
+    app.kubernetes.io/instance: ct-server
+    app.kubernetes.io/managed-by: kustomize
+    app.kubernetes.io/name: ct-server
+    app.kubernetes.io/part-of: scaffold
+  name: ct-servertr5m
+spec:
+  path: /
+  port:
+    targetPort: 8080
+  tls:
+    insecureEdgeTerminationPolicy: Redirect
+    termination: edge
+  to:
+    kind: Service
+    name: ct-server
+    weight: null
+status: {}
