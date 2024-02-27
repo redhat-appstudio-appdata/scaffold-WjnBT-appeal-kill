@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: fulcio-createcerts
     app.kubernetes.io/part-of: scaffold
-  name: fulcio-createcerts8psq
+  name: fulcio-createcertsxb6h
 spec:
   path: /
   port:
