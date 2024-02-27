@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: ct-server
     app.kubernetes.io/part-of: scaffold
-  name: ct-servertr5m
+  name: ct-servercufg
 spec:
   path: /
   port:
