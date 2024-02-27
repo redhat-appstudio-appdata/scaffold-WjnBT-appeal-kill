@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: tuf-server
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/rhtas-tenant/scaffold/tuf-server@sha256:2bb4c8fd0ec4182921cfb4d2242ee6985f2d9e94b424419f0d441be5ce3ebf27
+      - image: quay.io/redhat-user-workloads/rhtas-tenant/scaffold/tuf-server@sha256:975bc755f80eefa615f796555f09997b4c7e200d19f1b50702ece63d9f942737
         name: my-go
         ports:
         - containerPort: 8081
