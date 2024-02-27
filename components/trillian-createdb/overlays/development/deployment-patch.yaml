@@ -12,7 +12,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/rhtas-tenant/scaffold/trillian-createdb@sha256:35986114b85a4fa21250526c8923a5cd56f6bd16fe399e1103d56d4810eac8ce
+      - image: quay.io/redhat-user-workloads/rhtas-tenant/scaffold/trillian-createdb@sha256:fa85277212c2d16e6596fd4e6453c08d2266e527d1dc8592c67fb8586da602ca
         name: my-go
         resources: {}
 status: {}
