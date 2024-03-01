@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: trillian-createdb
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/rhtas-tenant/scaffold/trillian-createdb@sha256:134c6b67f62f590bf1f84b52c132e5ee290650236001d9b684610ee15efc9f9b
+      - image: quay.io/redhat-user-workloads/rhtas-tenant/scaffold/trillian-createdb@sha256:36dfec485294f5cfa9e3dd3ee81209ce2d26062e100393386edde6734d0025d0
         name: my-go
         ports:
         - containerPort: 8081
