@@ -12,7 +12,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/rhtas-tenant/scaffold/ct-server@sha256:fb85fafbbb5cd7d607e120fe10af9db69b37205cb09b14b18194517f0b26e380
+      - image: quay.io/redhat-user-workloads/rhtas-tenant/scaffold/ct-server@sha256:ee0bf7b2506074800666cd08496aa946bc250b2d45c034cb5d01afb95b74062c
         name: my-go
         resources: {}
 status: {}
