@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: tuf-server
     app.kubernetes.io/part-of: scaffold
-  name: tuf-servermbo6
+  name: tuf-serverwckt
 spec:
   path: /
   port:
