@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: createctconfig
     app.kubernetes.io/part-of: scaffold
-  name: createctconfigmony
+  name: createctconfigmqge
 spec:
   path: /
   port:
