@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: ctlog-verify-fulcio
     app.kubernetes.io/part-of: scaffold
-  name: ctlog-verify-fulciodspp
+  name: ctlog-verify-fulcioyps1
 spec:
   path: /
   port:
