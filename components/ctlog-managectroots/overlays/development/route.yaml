@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: ctlog-managectroots
     app.kubernetes.io/part-of: scaffold
-  name: ctlog-managectrootsuze8
+  name: ctlog-managectrootstog5
 spec:
   path: /
   port:
