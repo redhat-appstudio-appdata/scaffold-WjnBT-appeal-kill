@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: trillian-createdb
     app.kubernetes.io/part-of: scaffold
-  name: trillian-createdbxn6e
+  name: trillian-createdb5mt6
 spec:
   path: /
   port:
