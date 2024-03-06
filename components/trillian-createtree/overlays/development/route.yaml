@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: trillian-createtree
     app.kubernetes.io/part-of: scaffold
-  name: trillian-createtreembkb
+  name: trillian-createtreebmyw
 spec:
   path: /
   port:
