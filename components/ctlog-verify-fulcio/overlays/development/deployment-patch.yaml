@@ -12,7 +12,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/rhtas-tenant/scaffold/ctlog-verify-fulcio@sha256:2ee1f49a6b1071411fd42cf75823eaee425b2311fdaab58df6c620164f0d54e8
+      - image: quay.io/redhat-user-workloads/rhtas-tenant/scaffold/ctlog-verify-fulcio@sha256:479270f85c5c53eaf894b690578d255751eb01e0cc329c77a2279baa2571f86a
         name: my-go
         resources: {}
 status: {}
