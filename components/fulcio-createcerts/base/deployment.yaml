@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: fulcio-createcerts
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/rhtas-tenant/scaffold/fulcio-createcerts@sha256:1e00b36a241d715f770ad04726b32e41b9fae4416262f395f6974e3b315a812b
+      - image: quay.io/redhat-user-workloads/rhtas-tenant/scaffold/fulcio-createcerts@sha256:7e79fb9db03dd9a755be41742286100b60143230d388b053804abdf44dffa28d
         name: my-go
         ports:
         - containerPort: 8081
